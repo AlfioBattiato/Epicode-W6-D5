@@ -1,0 +1,48 @@
+.col-12 svg {
+  margin-right: 15px;
+}
+
+body {
+  background-color: #141414;
+}
+
+#input {
+  background-color: #141414;
+}
+
+#navProfile {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(17, 17, 17) 77%, rgb(20, 20, 20) 100%);
+}
+
+#edit {
+  font-size: 4rem;
+}
+
+.grey {
+  background-color: #333333;
+}
+
+.profile:hover {
+  background-color: white !important;
+}
+
+img:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+@media screen and (min-width: 1500px) {
+  .container-xxxl {
+    max-width: 1800px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1499px) {
+  .container-xxxl {
+    padding: 1rem;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
