@@ -1,0 +1,25 @@
+.col-12 svg{
+    margin-right: 15px;
+}
+body{
+    background-color: #141414;
+}
+#input{
+    background-color: #141414;
+    max-width: 5rem;
+
+}
+@media screen and (min-width:1500px) {
+    .container-xxxl{
+        max-width: 1600px;
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:1499px) {
+    .container-xxxl{
+        padding: 1rem;
+        margin: auto;
+    }
+    
+}
