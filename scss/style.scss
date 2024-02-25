@@ -1,4 +1,7 @@
-.col-12 svg {
+html, body{
+  margin: 0px;
+}
+footer .col-12 svg {
     margin-right: 15px;
   }
   body {
@@ -29,16 +32,21 @@
     cursor: pointer;
     scale: 1.2;
   }
+  .settings{
+    background-color: white;
+  }
+
   
   @media screen and (min-width: 1500px) {
     .container-xxxl {
-      max-width: 1800px;
+      padding-inline: 2rem;
+      max-width: 2300px;
       margin: auto;
     }
   }
   @media screen and (max-width: 1499px) {
     .container-xxxl {
-      padding: 1rem;
+      padding-inline: 1rem;
       margin: auto;
     }
   }
