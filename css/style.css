@@ -41,15 +41,10 @@ img:hover {
   background-color: white;
 }
 
-@media screen and (min-width: 1800px) {
-  nav {
-    padding-left: 3rem !important;
-  }
-}
 @media screen and (min-width: 1500px) {
   .container-xxxl {
     padding-inline: 2rem;
-    max-width: 2300px;
+    max-width: 2600px;
     margin: auto;
   }
 }
